@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: msaui
+          uri: ${MSA_UI_URL}
+          predicates:
+            - Path=/**
+          filters:
+            - RewritePath=/(?<path>.*), /$\{path}
+  main:
+    web-application-type: reactive
