@@ -14,7 +14,7 @@
 <br>
 
 ### 구성도
-![image](https://github.com/K-PaaS/msa-sample-gateway/assets/67575226/d00a1598-3358-4cca-bd42-ce56e15c873a)
+![image](https://github.com/K-PaaS/msa-sample-gateway/assets/67575226/2541af60-7868-4ef5-9a74-6b7758227b10)
 
 
 <br>
